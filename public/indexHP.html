@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home Pages Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesHP.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+  <div class="page">
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="navbar-left">
+        <div class="star">✦</div>
+        <span>J MARCELLINO CHRISLAND SIAHAAN</span>
+      </div>
+
+      <nav class="navbar-nav">
+        <a href="indexHP.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <div class="navbar-right" >
+       <i class="fas fa-moon" onclick="myFunction()"></i>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main class="hero">
+      <div class="hero-inner">
+        <section class="hero-text">
+          <h1 class="hero-heading">
+            <span>Welcome To</span>
+            <span class="name">J Marcellino Website </span>
+          </h1>
+          <p class="hero-subtitle">
+            I'm a junior Programmer and Student at Politeknik Negeri Medan. I love to create innovative solutions through programming.
+          <div class="hero-actions">
+            <a href="about.html" class="btn-primary">
+              View About
+              <span class="btn-icon">➜</span>
+            </a>
+           
+              <a href="projects.html" class="btn-outline" >
+                View Projects
+                <span class="btn-icon">➜</span>
+              </a>
+          </div>
+        </section>
+
+        <aside class="hero-graphic" aria-hidden="true">
+          <div class="hex-wrapper">
+            <div class="hex hex-1"></div>
+            <div class="hex hex-2"></div>
+            <div class="hex hex-3"></div>
+            <div class="hex hex-4"></div>
+            <div class="hex hex-5"></div>
+            <div class="grid-overlay"></div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Social Media  -->
+
+    <div class="social">
+        <a href="https://github.com/jmarcellinochrisland" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/j-marcellino-chrisland-siahaan-8739922a8/" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/share/18SitrowrE/" aria-label="facebook" title="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/Marcel_lino9/" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:jmarcellino.@students.polmed.ac.id" aria-label="Email" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span>© 2026 J MARCELLINO CHRISLAND SIAHAAN. All rights reserved.</span>
+    </footer>
+  </div>
+    </div>
+</body>
+</html>
